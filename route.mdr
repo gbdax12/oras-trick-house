@@ -53,12 +53,11 @@ Mash B at Birch's lab until you refuse to give a nickname, then mash A. Go north
 
 :::card
   Ideal stats at Lv. 6:
-  - Attack: **14** (_13 is runnable, but not ideal._)
-  - Defense: **10**
-  - Sp. Attack: **10**
+  - Attack: **13** (_12 makes museum iffy. Fight extra optional in Roxanne's gym if running 11 or 12 attack_)
+  - Defense: **9**
+  - Sp. Attack: **9**
   - Sp. Defense: **X** (_Any value is fine_)
-  - Speed: **10** (_9 is fine if you have a -Speed nature._)
-  **ANY KIP IS RUNNABLE IN THIS ROUTE**: some kips just have a better chance to not die :)
+  - Speed: **X** (_Any value is fine_)
 :::
 
 If you encounter zigzagoon, catch using pokeball. 
@@ -123,7 +122,7 @@ Go around next trainer and talk to last trainer.
 
 Potion if in Rock Tomb range.
 
-::damage[Geodude's Rock Tomb]{source="Mudkip" offensive=false movePower=60 level=9 evs=1 opponentLevel=12 stab=true opponentStat=24}
+::damage[Geodude's Rock Tomb]{source="Mudkip" offensive=false movePower=60 level=10 evs=1 opponentLevel=12 stab=true opponentStat=24}
 
 
 :::::trainer[Leader Roxanne]
@@ -133,7 +132,7 @@ Potion if in Rock Tomb range.
   :::pokemon[Nosepass]
     - Water Gun x3 / x4 :info[Heal as needed]{color=gray}
 
-    ::damage[Nosepass' Tackle]{source="Mudkip" offensive=false movePower=50 level=10 evs=2 opponentLevel=14 opponentStat=17}
+    ::damage[Nosepass' Tackle]{source="Mudkip" offensive=false movePower=50 level=11 evs=2 opponentLevel=14 opponentStat=17}
   :::
 :::::
 
@@ -171,7 +170,7 @@ Immediately after entering Rusturf Tunnel:
   - Teach Rock Tomb over Mud Slap (slot 4).
 
 :::::::trainer[Team Aqua Grunt]
-  :::::pokemon[Poochyena]{info="Faster before Rock Tomb hit at 15+ Speed (20+ / 4+ / 0+)" infoColor=blue}
+  :::::pokemon[Poochyena]{info="Faster before Rock Tomb hit at 15+ Speed (13+ / 0+ / 0+)" infoColor=blue}
     - Rock Tomb
     - Water Gun x2
   :::::
@@ -218,16 +217,16 @@ Equip the Silk Scarf if you have not done so.
   :::::pokemon[Machop]
     - Echoed Voice x3
 
-    :::if{source="Mudkip" condition="spatk=(16-30 / 7- / x)" theme=error}
+    :::if{source="Mudkip" condition="spatk=(8-28 / 7- / x)" theme=error}
       **Echoed Voice x3 is a 46.9% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(31 / 8-15 / 0-7)" theme=error}
+    :::if{source="Mudkip" condition="spatk=(29-31 / 8-14 / 0-7)" theme=error}
       **Echoed Voice x3 is a 81.5% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(x / 16-23 / 8-15)" theme=error}
+    :::if{source="Mudkip" condition="spatk=(x / 15-21 / x)" theme=error}
       **Echoed Voice x3 is a 93.6% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(x / 24+ / 16+)" theme=error}
+    :::if{source="Mudkip" condition="spatk=(x / 22+ / 8+)" theme=error}
       **Echoed Voice x3 is a 100% range.**
     :::
 
@@ -277,6 +276,8 @@ Go to the north-west of the beach and grab the PP Up.
 Head to Stern's Shipyard and watch the cutscene.
 
 Head to the museum.
+
+# BOOKMARK
 
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Carvanha]{info="Faster at 23+ Speed (x / x / 26+)" infoColor=blue}
