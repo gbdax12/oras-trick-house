@@ -612,12 +612,17 @@ Bike to Briney's house and sail to Slateport.
 Bike north past Slateport City to the house just north of Poké Fan Isabel (Plusle and Minun fight).
 
 Teach Strength to Marshtomp over Mud Slap (Slot 2).
+
 Teach Cut to Zigzagoon (or other cutter).
 
 ## Puzzle 1 - Cut
+
+Talk to table from bottom right to reveal Trick Master.
+
 ![Puzzle 1 Start](puzzle1_start.png)
 
 Use cut and talk to Battle Girl to fight (yellow in map)
+
 ![Puzzle 1 Scroll](puzzle1_scroll.png)
 :::::trainer[Battle Girl Cora]
   :::pokemon[Meditite]
@@ -628,14 +633,18 @@ Use cut and talk to Battle Girl to fight (yellow in map)
 
 ![Puzzle 1 Exit](puzzle1_exit.png)
 
-Talk to Puzzle Master and exit through hole.
+Talk to Trick Master and exit through hole.
+
 Exit the house and re-enter to start next puzzle.
 
 ## Puzzle 2 - Rock Smash
 
+Talk to shrub on right to reveal Trick Master.
+
 ![Puzzle 2 Start](puzzle2_start.png)
 
 Rock smash through puzzle and pass spinner only when safe (blue star).
+
 Follow closely behind roaming trainer.
 
 ![Puzzle 2 Scroll](puzzle2_scroll.png)
@@ -644,41 +653,60 @@ Follow closely behind roaming trainer to make it out of exit.
 
 ![Puzzle 2 Exit](puzzle2_exit.png)
 
-Talk to Puzzle Master and exit through hole.
+Talk to Trick Master and exit through hole.
+
 Exit the house and re-enter to start next puzzle.
 
 ## Puzzle 3 - Flash
+
 You don't actually need flash
+
+Talk to cabinet on left to reveal Trick Master.
 
 ![Puzzle 3 Start](puzzle3_start.png)
 
 Hug right edges to avoid the optional dual fight (blue star).
 
+Head down stairs all the way down to scroll.
+
 ![Puzzle 3 Scroll](puzzle3.png)
 
-Moving to the top right of the room will shift the camera and reveal the stairs
+Moving to the top right of the room will shift the camera and reveal the stairs.
 
 ![Puzzle 3 Exit](puzzle3_stairs.png)
 
-Talk to Puzzle Master and exit through hole.
+Return to stairs to top to exit.
+
+Talk to Trick Master and exit through hole.
+
 Exit the house and re-enter to start next puzzle.
 
-Puzzle 4 - Strength
+## Puzzle 4 - Strength
+
+Talk to mirror on left to reveal Trick Master.
+
+Move boulders according to pictures.
 
 ![Puzzle 4 Start](puzzle4_start.png)
 
-![Puzzle 4 Scroll](puzzle4_section1.png)
+![Puzzle 4 Section 1](puzzle4_section1.png)
 
-![Puzzle 4 Scroll](puzzle4_section2.png)
+![Puzzle 4 Section 2](puzzle4_section2.png)
 
-![Puzzle 4 Scroll](puzzle4_section3.png)
+![Puzzle 4 Section 3](puzzle4_section3.png)
+
+Read scroll and exit.
 
 ![Puzzle 4 Exit](puzzle4_exit.png)
 
-Talk to Puzzle Master and exit through hole.
+Talk to Trick Master and exit through hole.
+
 Exit the house and re-enter to start next puzzle.
 
 ## Puzzle 5 - Quiz
+
+Talk to cabinet on right to reveal Trick Master.
+
 ![Puzzle 5 Start](puzzle5_start.png)
 
 ### First Mechadoll
@@ -710,16 +738,20 @@ Exit the house and re-enter to start next puzzle.
 
 
 
-Talk to Puzzle Master and exit through hole.
+Talk to Trick Master and exit through hole.
 Exit the house and re-enter to start next puzzle.
 
 ## Puzzle 6 - Movement Pads
 
+Talk to cabinet on right to reveal Trick Master.
+
+Move through pads (like Rocket Hideout in FRLG)
 ![Puzzle 6 Start](puzzle6_start.png)
 
 ![Puzzle 6 Scroll](puzzle6_scroll.png)
 
 ![Puzzle 6 Exit](puzzle6_exit.png)
 
-Talk to Puzzle Master and exit through hole.
+Talk to Trick Master and exit through hole.
+
 Exit the house for last time and congrats on finishing!
