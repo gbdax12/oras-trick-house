@@ -231,7 +231,7 @@ Equip the Silk Scarf if you have not done so.
       **Echoed Voice x3 is a 100% range.**
     :::
 
-    ::damage[Machop's Low Sweep]{source="Mudkip" offensive=false movePower=65 level=13 evs=5 opponentLevel=13 opponentStat=25 stab=true}
+    ::damage[Machop's Low Sweep]{source="Mudkip" offensive=false movePower=65 level=14 evs=5 opponentLevel=13 opponentStat=25 stab=true}
   :::::
 :::::::
 
