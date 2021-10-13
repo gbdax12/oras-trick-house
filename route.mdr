@@ -314,9 +314,9 @@ Head to the museum.
   :::pokemon[Caravanha]{info="Heal whenever you are in Aqua Jet range" infoColor=gray}
     - Rock Tomb
     - Echoed Voice :info[Use Water Gun if in Torrent]{color=gray}
-    ::damage[Carvanha's Bite]{source="Mudkip" offensive=false movePower=60 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true}
+    ::damage[Carvanha's Bite]{source="Mudkip" evolution=1 offensive=false movePower=60 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true}
 
-    ::damage[Carvanha's Aqua Jet]{source="Mudkip" offensive=false movePower=40 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true effectiveness=0.5}
+    ::damage[Carvanha's Aqua Jet]{source="Mudkip" evolution=1 offensive=false movePower=40 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true effectiveness=0.5}
   :::
 :::::
 
