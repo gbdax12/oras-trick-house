@@ -1,32 +1,35 @@
-:::tracker{species="Mudkip" generation=6 baseStats="[[50, 70, 50, 50, 50, 40], [70, 85, 70, 60, 70, 50], [100, 110, 90, 85, 90, 60]]"}
-5: 
-  5 ->	  0,    0,    0,    0,    0,    0 
-  6 ->	  0,    1,    0,    0,    0,    1   #	Poochyena (1 Atk), Treecko (1 Spd)
-  7 ->	  0,    1,    0,    0,    0,    2   # Zigzagoon (1 Spd)
-  8 ->	  0,    2,    0,    0,    0,    2   # Poochyena (1 Atk)
-  9 ->	  0,    2,    1,    0,    0,    2   # Geodude (1 Def)
-  10 ->	  0,    2,    3,    0,    0,    2   # Geodude (1 Def)
-  11 ->	  0,    2,    4,    0,    0,    2   # Nosepass (1 Def)
-  12 ->   0,    2,    5,    0,    0,    2   # Geodude (1 Def), Geodude (1 Def)
-  13 ->   0,    2,    7,    0,    0,    2   # Poochyena (1 Atk)
-  14 ->   0,    4,    7,    0,    0,    3   # Meditite (1 Spd), Machop (1 Atk)
-  15 ->   0,    5,    7,    0,    0,    4   # Meditite (1 Spd), Machop (1 Atk), Machop (1 Atk)
-  16 ->   1,    7,    7,    0,    0,    4   # Makuhita (1 HP), Carvanha (1 Atk), Zubat (1 Spd)
-  17 ->   1,    8,    7,    0,    0,    7   # Carvanha (1 Atk), Plusle (1 Spd)
-  18 ->   1,    8,    7,    1,    0,    7   # Minun (1 Spd), Slugma (1 Sp.Atk)
-  19 ->   1,    8,    7,    1,    0,    9   # Grovyle (2 Spd)
-  20 ->   2,    8,    7,    3,    0,    10  # Wailmer (1 HP), Ralts (1 Sp.Atk), Magnemite (1 Sp.Atk), Electrike (1 Spd), Electrike (1 Spd)
-  21 ->   2,    8,    7,    6,    0,    13  # Voltorb (1 Spd), Voltorb (1 Spd), Magnemite (1 Sp.Atk), Magneton (2 Sp.Atk)
-  22 ->   2,    8,    7,    6,    0,    15  # Voltorb (1 Spd), Electrike (1 Spd)
-  23 ->   3,    10,   8,    6,    0,    16  # Bagon (1 Atk), Makuhita (1 HP), Trapinch (1 Atk), Electrike (1 Spd), Aron (1 Def)
-  24 ->   4,    13,   8,    6,    0,    16  # Grimer (1 HP), Mightyena (2 Atk), Carvanha (1 Atk)
-  25 ->   6,    17,   8,    6,    0,    16  # Poochyena (1 Atk), Grimer (1 HP), Grimer (1 HP), Carvanha (1 Atk), Mightyena (2 Atk)
-  26 ->   6,    19,   8,    6,    0,    18  # Sharpedo (2 Atk), Golbat (2 Spd)
-  27 ->   6,    19,  10,    9,    0,    18  # Numel (1 Sp.Atk), Slugma (1 Sp.Atk), Numel (1 Sp.Atk), Torkoal (2 Def)
+::variable{name="easyroute" type="boolean" title="Do you want to do the easy route?"}
 
+:::if{condition="!$easyroute"}
+  :::tracker{species="Mudkip" generation=6 baseStats="[[50, 70, 50, 50, 50, 40], [70, 85, 70, 60, 70, 50], [100, 110, 90, 85, 90, 60]]"}
+  5: 
+    5 ->	  0,    0,    0,    0,    0,    0 
+    6 ->	  0,    1,    0,    0,    0,    1   #	Poochyena (1 Atk), Treecko (1 Spd)
+    7 ->	  0,    1,    0,    0,    0,    2   # Zigzagoon (1 Spd)
+    8 ->	  0,    2,    0,    0,    0,    2   # Poochyena (1 Atk)
+    9 ->	  0,    2,    1,    0,    0,    2   # Geodude (1 Def)
+    10 ->	  0,    2,    3,    0,    0,    2   # Geodude (1 Def)
+    11 ->	  0,    2,    4,    0,    0,    2   # Nosepass (1 Def)
+    12 ->   0,    2,    5,    0,    0,    2   # Geodude (1 Def), Geodude (1 Def)
+    13 ->   0,    2,    7,    0,    0,    2   # Poochyena (1 Atk)
+    14 ->   0,    4,    7,    0,    0,    3   # Meditite (1 Spd), Machop (1 Atk)
+    15 ->   0,    5,    7,    0,    0,    4   # Meditite (1 Spd), Machop (1 Atk), Machop (1 Atk)
+    16 ->   1,    7,    7,    0,    0,    4   # Makuhita (1 HP), Carvanha (1 Atk), Zubat (1 Spd)
+    17 ->   1,    8,    7,    0,    0,    7   # Carvanha (1 Atk), Plusle (1 Spd)
+    18 ->   1,    8,    7,    1,    0,    7   # Minun (1 Spd), Slugma (1 Sp.Atk)
+    19 ->   1,    8,    7,    1,    0,    9   # Grovyle (2 Spd)
+    20 ->   2,    8,    7,    3,    0,    10  # Wailmer (1 HP), Ralts (1 Sp.Atk), Magnemite (1 Sp.Atk), Electrike (1 Spd), Electrike (1 Spd)
+    21 ->   2,    8,    7,    6,    0,    13  # Voltorb (1 Spd), Voltorb (1 Spd), Magnemite (1 Sp.Atk), Magneton (2 Sp.Atk)
+    22 ->   2,    8,    7,    6,    0,    15  # Voltorb (1 Spd), Electrike (1 Spd)
+    23 ->   3,    10,   8,    6,    0,    16  # Bagon (1 Atk), Makuhita (1 HP), Trapinch (1 Atk), Electrike (1 Spd), Aron (1 Def)
+    24 ->   4,    13,   8,    6,    0,    16  # Grimer (1 HP), Mightyena (2 Atk), Carvanha (1 Atk)
+    25 ->   6,    17,   8,    6,    0,    16  # Poochyena (1 Atk), Grimer (1 HP), Grimer (1 HP), Carvanha (1 Atk), Mightyena (2 Atk)
+    26 ->   6,    19,   8,    6,    0,    18  # Sharpedo (2 Atk), Golbat (2 Spd)
+    27 ->   6,    19,  10,    9,    0,    18  # Numel (1 Sp.Atk), Slugma (1 Sp.Atk), Numel (1 Sp.Atk), Torkoal (2 Def)
+
+  :::
 :::
 
-::variable{name="easyroute" type="boolean" title="Do you want to do the easy route?"}
 
 :::if{condition="$easyroute"}
   ::::tracker{species="Mudkip2" generation=6 baseStats="[[50, 70, 50, 50, 50, 40], [70, 85, 70, 60, 70, 50], [100, 110, 90, 85, 90, 60]]"}
