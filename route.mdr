@@ -304,7 +304,7 @@ Head to the museum.
 
 
 :::::trainer[Team Aqua Grunt]
-  :::pokemon[Zubat]{info="Faster at 21+ Speed (18+ / # / #) infoColor=blue}
+  :::pokemon[Zubat]{info="Faster at 21+ Speed (18+ / # / #)" infoColor=blue}
     - Rock Tomb
     - Water Gun
     ::damage[+0 Rock Tomb vs Zubat]{source="Mudkip" evolution=1 movePower=60 level=16 opponentStat=15 effectiveness=2 healthThreshold=35 theme=error}
