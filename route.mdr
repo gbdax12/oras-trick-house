@@ -25,6 +25,9 @@
   27 ->   6,    19,  10,    9,    0,    18  # Numel (1 Sp.Atk), Slugma (1 Sp.Atk), Numel (1 Sp.Atk), Torkoal (2 Def)
 
 :::
+
+::variable{name="easyroute" type="boolean" title="Do you want to do the easy route?"}
+
 Choose May and give her a single character name ("!" is the fastest).
 
 Open the options and set:
