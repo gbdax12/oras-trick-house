@@ -304,12 +304,12 @@ Head to the museum.
 
 
 :::::trainer[Team Aqua Grunt]
-  :::pokemon[Zubat]{info="Faster at 21+ Speed (x / 26+ / 19+), tie at 20 Speed (x / 19-25 / 13-18)" infoColor=blue}
+  :::pokemon[Zubat]{info="Faster at 21+ Speed (18+ / # / #) infoColor=blue}
     - Rock Tomb
     - Water Gun
-    ::damage[+0 Rock Tomb vs Zubat]{source="Mudkip" movePower=60 level=15 evs=7 opponentStat=15 effectiveness=2 healthThreshold=35 theme=error}
+    ::damage[+0 Rock Tomb vs Zubat]{source="Mudkip" evolution=1 movePower=60 level=16 opponentStat=15 effectiveness=2 healthThreshold=35 theme=error}
 
-    ::damage[Zubat's Wing Attack]{source="Mudkip" offensive=false movePower=60 level=15 evs=5 opponentLevel=14 opponentStat=17 stab=true}
+    ::damage[Zubat's Wing Attack]{source="Mudkip" offensive=false evolution=1 movePower=60 level=16 opponentLevel=14 opponentStat=17 stab=true}
   :::
   :::pokemon[Caravanha]{info="Heal whenever you are in Aqua Jet range" infoColor=gray}
     - Rock Tomb
