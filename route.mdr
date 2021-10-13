@@ -61,9 +61,9 @@ Mash B at Birch's lab until you refuse to give a nickname, then mash A. Go north
   Run any mudkip except 11 or 12 attack or 8 speed.
 :::
 
-If you encounter zigzagoon, catch using pokeball. 
-
 Go back to the lab. Leave the lab and go north, then head west at Oldale Town.
+
+If you encounter zigzagoon, catch using pokeball and turn off Experience Share.
 
 :::::trainer[Youngster Calvin]
   :::pokemon[Zigzagoon]{info="Faster at 10+ Speed (x / 4+ / 4)" infoColor=blue}
@@ -71,9 +71,13 @@ Go back to the lab. Leave the lab and go north, then head west at Oldale Town.
   :::
 :::::
 
+If you encounter zigzagoon and don't have one, catch using pokeball.
+
 After the catching tutorial, **DEPOSIT ZIGZAGOON INTO PC IN POKECENTER**
 
 Head west then north towards the forest. You can either risk an encounter by going through the grass, or go along the beach. The grass is faster unless you get an encounter.
+
+**DO NOT CATCH ZIGZAGOON OR CUTTER IF YOU GET AN ENCOUNTER**
 
 :::::::trainer[Team Aqua Grunt]
   :::::pokemon[Poochyena]{info="Faster at 12+ Speed (x / 20+ / 6+)" infoColor=blue}
@@ -140,7 +144,7 @@ Potion if in Rock Tomb range.
 Talk to the scientist after the cutscene, then head east.
 
 
-If you encounter nincada or zigzagoon and don't have one yet, catch using pokeball. Turn off experience share if caught here.
+If you encounter nincada or zigzagoon and don't have one yet, catch using pokeball. Turn off Experience Share if caught here.
 
 Go through the bottom patch of grass and grab the Repel.
 
@@ -188,7 +192,7 @@ Head to the mart.
 ### Rustboro Shopping
 > #### Buy
 > - 2 Repels (^^)
-> - 5 Super Potions (<v)
+> - 6 Super Potions (<v)
 
 Go back through Petalburg Woods toward's Mr. Briney's house. Grass patch is last opportunity to catch zigzagoon.
 
@@ -283,6 +287,7 @@ Head to the museum.
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Carvanha]{info="Faster at 23+ Speed (x / x / 26+)" infoColor=blue}
     - Rock Tomb x2
+    - Teach Mud Shot over Growl (slot 2) {info="Don't B mash on evolution!" infoColor=gray}
     :::if{source="Mudkip" condition="atk=(19-25 / 0-5 / x)" theme=error}
       **Rock Tomb x2 is a 56.3% range.**
     :::
@@ -309,7 +314,6 @@ Head to the museum.
   :::pokemon[Caravanha]{info="Heal whenever you are in Aqua Jet range" infoColor=gray}
     - Rock Tomb
     - Echoed Voice :info[Use Water Gun if in Torrent]{color=gray}
-    - Teach Mud Shot over Growl (slot 2)
     ::damage[Carvanha's Bite]{source="Mudkip" offensive=false movePower=60 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true}
 
     ::damage[Carvanha's Aqua Jet]{source="Mudkip" offensive=false movePower=40 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true effectiveness=0.5}
@@ -345,6 +349,12 @@ After beating Isabel:
 - Heal to full.
 - Equip the Silk Scarf.
 - Use a Super Repel.
+
+
+Optional: Pick up extra Full Heal
+
+![full_heal](full_heal.png)
+
 
 :::::::trainer[Brendan 2]
   :::::pokemon[Slugma]
@@ -389,7 +399,6 @@ Drop Repel and get the Mach Bike.
 After exiting the mart:
 - Equip the Soft Sand.
 - Teach Bulldoze over Echoed Voice (slot 1).
-- Turn off the Experience Share (if still on).
 - Register the Mach Bike.
 - Ride the Mach Bike.
 
