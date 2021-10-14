@@ -1,4 +1,3 @@
-
 :::tracker{species="Mudkip" generation=6 baseStats="[[50, 70, 50, 50, 50, 40], [70, 85, 70, 60, 70, 50], [100, 110, 90, 85, 90, 60]]"}
 5: 
   5 ->	  0,    0,    0,    0,    0,    0 
@@ -225,16 +224,16 @@ Equip the Silk Scarf if you have not done so.
   :::::pokemon[Machop]
     - Echoed Voice x3
 
-    :::if{source="Mudkip" condition="spatk=(8-28 / 7- / x)" theme=error}
+    :::if{source="Mudkip" condition="spatk=(8-21 / x / x)" theme=error}
       **Echoed Voice x3 is a 46.9% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(29-31 / 8-14 / 0-7)" theme=error}
+    :::if{source="Mudkip" condition="spatk=(22-28 / 7- / x)" theme=error}
       **Echoed Voice x3 is a 81.5% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(x / 15-21 / x)" theme=error}
+    :::if{source="Mudkip" condition="spatk=(29-31 / 8-14 / x)" theme=error}
       **Echoed Voice x3 is a 93.6% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(x / 22+ / 8+)" theme=error}
+    :::if{source="Mudkip" condition="spatk=(x / 15+ / #)" theme=error}
       **Echoed Voice x3 is a 100% range.**
     :::
 
@@ -284,8 +283,6 @@ Go to the north-west of the beach and grab the PP Up.
 Head to Stern's Shipyard and watch the cutscene.
 
 Head to the museum.
-
-# BOOKMARK
 
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Carvanha]{info="Faster at 23+ Speed (x / x / 26+)" infoColor=blue}
@@ -382,7 +379,7 @@ Optional: Pick up extra Full Heal
     - Echoed Voice (x2)
     ::damage[+3 Echoed Voice vs Grovyle]{source="Mudkip" evolution=1 movePower=120 special=true combatStages=3 level=18 evs=1 opponentStat=31 healthThreshold=54 otherPowerModifier=1.2 theme=error}
 
-    ::damage[Grovyle's Quick Attack]{source="Mudkip" evolution=1 offensive=false movePower=40 level=18 evs=5 opponentLevel=20 opponentStat=35}
+    ::damage[Grovyle's Quick Attack]{source="Mudkip" evolution=1 offensive=false movePower=40 level=18 opponentLevel=20 opponentStat=35}
   :::::
   :::::pokemon[Wailmer]
     - Echoed Voice
@@ -421,7 +418,7 @@ Puzzle (room 1): Blue switch, red switch.
   :::pokemon[Magnemite]
      - Bulldoze
   :::
-  :::pokemon[Electrike]{info="Faster at 25+ Speed (20+ / 4+ / 0+)" infoColor=blue}
+  :::pokemon[Electrike]
     - Bulldoze
   :::
 :::::
@@ -429,7 +426,7 @@ Puzzle (room 1): Blue switch, red switch.
 Puzzle (room 2): Top-right blue switch, red switch, top-right blue switch.
 
 :::::trainer[Youngster Ben]
-  :::pokemon[Electrike]{info="Faster at 26+ Speed (25+ / 9+ / 0+)" infoColor=blue}
+  :::pokemon[Electrike]
     - Bulldoze
   :::
 :::::
@@ -457,7 +454,7 @@ Puzzle (room 2): Top-right blue switch, red switch, top-right blue switch.
   :::pokemon[Magneton]
     - Bulldoze
   :::
-  :::pokemon[Voltorb]{info="Faster at 30+ Speed (x / 17+ / 7+)" infoColor=blue}
+  :::pokemon[Voltorb]
     - Bulldoze
   :::
 :::::
@@ -481,16 +478,16 @@ Head through the cave. After exiting, grab the Persim Berries from the middle bu
   :::::pokemon[Bagon]{info="Faster at 27+ Speed (17+ / 2+ / 0+)" infoColor=blue}
     - Bulldoze x2 (/ x3)
     - Do not learn Mud Bomb
-    :::if{source="Mudkip" condition="atk=(20-28 / 0-5 / x)" theme=error}
+    :::if{source="Mudkip" condition="atk=(7-19 / x / x)" theme=error}
       **Bulldoze x2 is a 41.4% range.**
     :::
-    :::if{source="Mudkip" condition="atk=(29+ / 6-14 / x)" theme=error}
+    :::if{source="Mudkip" condition="atk=(20-28 / 0-6 / x)" theme=error}
       **Bulldoze x2 is a 90.2% range.**
     :::
-    :::if{source="Mudkip" condition="atk=(x / 15-24 / 0-5)" theme=error}
+    :::if{source="Mudkip" condition="atk=(29+ / 7-15 / x)" theme=error}
       **Bulldoze x2 is a 99.5 range.**
     :::
-    :::if{source="Mudkip" condition="atk=(x / 15+ / 6+)" theme=error}
+    :::if{source="Mudkip" condition="atk=(x / 16+ / #)" theme=error}
       **Bulldoze x2 is a 100% range.**
     :::
   :::::
