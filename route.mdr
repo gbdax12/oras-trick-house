@@ -1,4 +1,35 @@
+
 :::tracker{species="Mudkip" generation=6 baseStats="[[50, 70, 50, 50, 50, 40], [70, 85, 70, 60, 70, 50], [100, 110, 90, 85, 90, 60]]"}
+5: 
+  5 ->	  0,    0,    0,    0,    0,    0 
+  6 ->	  0,    1,    0,    0,    0,    1   #	Poochyena (1 Atk), Treecko (1 Spd)
+  7 ->	  0,    1,    0,    0,    0,    2   # Zigzagoon (1 Spd)
+  8 ->	  0,    2,    0,    0,    0,    2   # Poochyena (1 Atk)
+  9 ->	  0,    2,    1,    0,    0,    2   # Geodude (1 Def)
+  10 ->	  0,    2,    2,    0,    0,    2   # Geodude (1 Def)
+  11 ->	  0,    2,    3,    0,    0,    2   # Nosepass (1 Def)
+  12 ->   0,    2,    5,    0,    0,    2   # Geodude (1 Def), Geodude (1 Def)
+  13 ->   0,    3,    5,    0,    0,    3   # Poochyena (1 Atk)
+  14 ->   0,    4,    5,    0,    0,    3   # Meditite (1 Spd), Machop (1 Atk)
+  15 ->   0,    6,    5,    0,    0,    4   # Meditite (1 Spd), Machop (1 Atk), Machop (1 Atk)
+  16 ->   1,    7,    5,    0,    0,    5   # Makuhita (1 HP), Carvanha (1 Atk), Zubat (1 Spd)
+  17 ->   1,    8,    5,    0,    0,    6   # Carvanha (1 Atk), Plusle (1 Spd)
+  18 ->   1,    8,    5,    1,    0,    7   # Minun (1 Spd), Slugma (1 Sp.Atk)
+  19 ->   1,    8,    5,    1,    0,    9   # Grovyle (2 Spd)
+  20 ->   2,    8,    5,    3,    0,    11  # Wailmer (1 HP), Ralts (1 Sp.Atk), Magnemite (1 Sp.Atk), Electrike (1 Spd), Electrike (1 Spd)
+  21 ->   2,    8,    5,    6,    0,    13  # Voltorb (1 Spd), Voltorb (1 Spd), Magnemite (1 Sp.Atk), Magneton (2 Sp.Atk)
+  22 ->   2,    8,    5,    6,    0,    15  # Voltorb (1 Spd), Electrike (1 Spd)
+  23 ->   3,    10,   6,    6,    0,    16  # Bagon (1 Atk), Makuhita (1 HP), Trapinch (1 Atk), Electrike (1 Spd), Aron (1 Def)
+  24 ->   4,    13,   6,    6,    0,    16  # Grimer (1 HP), Mightyena (2 Atk), Carvanha (1 Atk)
+  25 ->   6,    17,   6,    6,    0,    16  # Poochyena (1 Atk), Grimer (1 HP), Grimer (1 HP), Carvanha (1 Atk), Mightyena (2 Atk)
+  26 ->   6,    19,   6,    6,    0,    18  # Sharpedo (2 Atk), Golbat (2 Spd)
+  27 ->   6,    19,   8,    9,    0,    18  # Numel (1 Sp.Atk), Slugma (1 Sp.Atk), Numel (1 Sp.Atk), Torkoal (2 Def)
+  28 ->   7,    19,   8,    9,    0,    21  # Delcatty (1 HP, 1 Spd), Linoone (2 Spd)
+  29 ->   10,   21,   8,    9,    0,    21  # Zangoose (2 Atk), Slaking (3 HP)
+  30 ->   13,   21,   8,    9,    0,    23  # Vigoroth (2 Spd), Slaking (3 HP)
+:::
+
+:::tracker{species="Mudkip-test" generation=6 baseStats="[[50, 70, 50, 50, 50, 40], [70, 85, 70, 60, 70, 50], [100, 110, 90, 85, 90, 60]]"}
 5: 
   5 ->	  0,    0,    0,    0,    0,    0 
   6 ->	  0,    1,    0,    0,    0,    1   #	Poochyena (1 Atk), Treecko (1 Spd)
@@ -27,6 +58,22 @@
 :::
 
 
+:::variable{name="safeRoute" type="boolean" defaultValue=0 theme=error title="Do you want a safer route?"}
+ The safer route fights one more optional so you have safer Hideki and Museum fights and more runnable mudkips
+
+ 1. Fight Youngster Josh in Roxanne's gym
+ 2. Level 14 for Hidkeki and Marshtomp for Museum fight #2
+:::
+
+
+:::variable{name="showMaps" type="boolean" defaultValue=0 theme=success title="Do you want additional maps to help you with optionals/spinners and movement?"}
+Maps are labeled with white arrows for movement and red letters for trainers:
+  - O: Optional fight. These trainers do not spin so you just need to walk around them.
+  - F: Trainer fight. These are trainers you are fighting as a part of the route.
+  - S: Spinner trainer. These trainers spin in place so pass only when they are not looking.
+  - W: Walker trainer. These trainers move/walk so be careful of their movement.
+:::
+
 Choose May and give her a single character name ("!" is the fastest).
 
 Open the options and set:
@@ -53,6 +100,7 @@ Mash B at Birch's lab until you refuse to give a nickname, then mash A. Go north
   :::
 :::::
 
+
 :::card
   Ideal stats at Lv. 6:
   - Attack: **13** (_12 makes museum iffy. Fight extra optional in Roxanne's gym if running 11 or 12 attack_)
@@ -64,6 +112,10 @@ Mash B at Birch's lab until you refuse to give a nickname, then mash A. Go north
 :::
 
 Go back to the lab. Leave the lab and go north, then head west at Oldale Town.
+
+:::if{source="Mudkip" condition="$showMaps"}
+![map1](map1.png)
+:::
 
 If you encounter zigzagoon, catch using pokeball and turn off Experience Share.
 
@@ -106,20 +158,22 @@ After leaving the forest, head west and get TM49 Echoed Voice from the boy.
 
 ![Echoed Voice location](echoed-voice.png)
 
-Head east, then north across the bridge to Rustboro City. Fight first trainer.
+Head east, then north across the bridge to Rustboro City.
+
+:::if{source="Mudkip" condition="$safeRoute"}
+  Fight first trainer.
+  :::::trainer[Youngster Josh]
+    :::pokemon[Geodude]
+      - Tackle
+      - Water Gun
+    :::
+    :::pokemon[Geodude]
+      - Water Gun
+    :::
+  :::::
 
 
-:::::trainer[Youngster Josh]
-  :::pokemon[Geodude]
-    - Tackle
-    - Water Gun
-  :::
-  :::pokemon[Geodude]
-    - Water Gun
-  :::
-:::::
-
-Go around next trainer and talk to last trainer.
+Talk to last trainer.
 
 :::::trainer[Schoolkid Georgia]
   :::pokemon[Geodude]
@@ -129,17 +183,28 @@ Go around next trainer and talk to last trainer.
 
 Potion if in Rock Tomb range.
 
-::damage[Geodude's Rock Tomb]{source="Mudkip" offensive=false movePower=60 level=10 evs=1 opponentLevel=12 stab=true opponentStat=24}
-
+:::if{source="Mudkip" condition="$safeRoute"}
+  ::damage[Geodude's Rock Tomb]{source="Mudkip" offensive=false movePower=60 level=10 evs=3 opponentLevel=12 stab=true opponentStat=24}
+:::
+:::if{source="Mudkip" condition="!$safeRoute"}
+  ::damage[Geodude's Rock Tomb]{source="Mudkip" offensive=false movePower=60 level=9 evs=1 opponentLevel=12 stab=true opponentStat=24}
+:::
 
 :::::trainer[Leader Roxanne]
   :::pokemon[Geodude]
     - Water Gun x2 :info[Do not heal after the first Water Gun!]{color=gray}
   :::
+  :::if{source="Mudkip" condition="$safeRoute"}
   :::pokemon[Nosepass]
     - Water Gun x3 / x4 :info[Heal as needed]{color=gray}
 
-    ::damage[Nosepass' Tackle]{source="Mudkip" offensive=false movePower=50 level=11 evs=2 opponentLevel=14 opponentStat=17}
+    ::damage[Nosepass' Tackle]{source="Mudkip" offensive=false movePower=50 level=11 evs=4 opponentLevel=14 opponentStat=17}
+  :::
+:::if{source="Mudkip" condition="!$safeRoute"}
+  :::pokemon[Nosepass]
+    - Water Gun x3 / x4 :info[Heal as needed]{color=gray}
+
+    ::damage[Nosepass' Tackle]{source="Mudkip" offensive=false movePower=50 level=10 evs=2 opponentLevel=14 opponentStat=17}
   :::
 :::::
 
@@ -156,7 +221,12 @@ Minimize steps through the grass, then fight the hiker purposely. If the second 
 
 ![Route 116 movement](route-116-movement.gif)
 
-::damage[Geodude's Rollout]{source="Mudkip" offensive=false movePower=30 level=12 evs=4 opponentLevel=10 opponentStat=21 stab=true}
+:::if{source="Mudkip" condition="$safeRoute"}
+  ::damage[Geodude's Rollout]{source="Mudkip" offensive=false movePower=30 level=13 evs=6 opponentLevel=10 opponentStat=21 stab=true}
+:::
+:::if{source="Mudkip" condition="!$safeRoute"}
+  ::damage[Geodude's Rollout]{source="Mudkip" offensive=false movePower=30 level=12 evs=4 opponentLevel=10 opponentStat=21 stab=true}
+:::
 
 :::::trainer[Hiker Clark]
   :::pokemon[Geodude]
@@ -177,7 +247,7 @@ Immediately after entering Rusturf Tunnel:
   - Teach Rock Tomb over Mud Slap (slot 4).
 
 :::::::trainer[Team Aqua Grunt]
-  :::::pokemon[Poochyena]{info="Faster before Rock Tomb hit at 15+ Speed (13+ / 0+ / 0+)" infoColor=blue}
+  :::::pokemon[Poochyena]{info="Faster before Rock Tomb hit at 15+ Speed (20+ / 4+ / 0+) standard route and (13+ / 0+ / 0+) for safe route" infoColor=blue}
     - Rock Tomb
     - Water Gun x2
   :::::
@@ -224,20 +294,24 @@ Equip the Silk Scarf if you have not done so.
   :::::pokemon[Machop]
     - Echoed Voice x3
 
-    :::if{source="Mudkip" condition="spatk=(8-21 / x / x)" theme=error}
+    :::if{source="Mudkip" condition="(spatk=(8-21 / x / x) && $safeRoute) || (spatk=(16-30 / 7- / x) && !$safeRoute)" theme=error}
       **Echoed Voice x3 is a 46.9% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(22-28 / 7- / x)" theme=error}
+    :::if{source="Mudkip" condition="(spatk=(22-28 / 7- / x) && $safeRoute) || (spatk=(31 / 8-15 / 0-7) && !$safeRoute)" theme=error}
       **Echoed Voice x3 is a 81.5% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(29-31 / 8-14 / x)" theme=error}
+    :::if{source="Mudkip" condition="(spatk=(29-31 / 8-14 / x) && $safeRoute) || (spatk=(x / 16-23 / 8-15) && !$safeRoute)" theme=error}
       **Echoed Voice x3 is a 93.6% range (including crits).**
     :::
-    :::if{source="Mudkip" condition="spatk=(x / 15+ / #)" theme=error}
+    :::if{source="Mudkip" condition="(spatk=(x / 15+ / #) && $safeRoute) || (spatk=(x / 24+ / 16+) && !$safeRoute) " theme=error}
       **Echoed Voice x3 is a 100% range.**
     :::
-
-    ::damage[Machop's Low Sweep]{source="Mudkip" offensive=false movePower=65 level=14 evs=5 opponentLevel=13 opponentStat=25 stab=true}
+    :::if{source="Mudkip" condition="$safeRoute"}
+      ::damage[Machop's Low Sweep]{source="Mudkip" offensive=false movePower=65 level=14 evs=7 opponentLevel=13 opponentStat=25 stab=true}
+    :::
+    :::if{source="Mudkip" condition="!$safeRoute"}
+      ::damage[Machop's Low Sweep]{source="Mudkip" offensive=false movePower=65 level=13 evs=5 opponentLevel=13 opponentStat=25 stab=true}
+    :::
   :::::
 :::::::
 
@@ -287,7 +361,10 @@ Head to the museum.
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Carvanha]{info="Faster at 23+ Speed (x / x / 26+)" infoColor=blue}
     - Rock Tomb x2
-    - Teach Mud Shot over Growl (slot 2) {info="Don't B mash on evolution!" infoColor=gray}
+    :::if{source="Mudkip" condition="$safeRoute"}
+      - Don't mash B! If you cancel evolve its game over!
+      - Teach Mud Shot over Growl (slot 2)
+    :::
     :::if{source="Mudkip" condition="atk=(19-25 / 0-5 / x)" theme=error}
       **Rock Tomb x2 is a 56.3% range.**
     :::
@@ -298,7 +375,7 @@ Head to the museum.
       **Rock Tomb x2 is a 100% range.**
     :::
 
-    ::damage[Caravanha's Assurance]{source="Mudkip" offensive=false movePower=60 level=15 evs=5 opponentLevel=16 opponentStat=33 stab=true}
+    ::damage[Caravanha's Assurance]{source="Mudkip" offensive=false movePower=60 level=15 evs=7 opponentLevel=16 opponentStat=33 stab=true}
   :::
 :::::
 
@@ -307,16 +384,29 @@ Head to the museum.
   :::pokemon[Zubat]{info="Faster at 21+ Speed (18+ / # / #)" infoColor=blue}
     - Rock Tomb
     - Water Gun
-    ::damage[+0 Rock Tomb vs Zubat]{source="Mudkip" evolution=1 movePower=60 level=16 opponentStat=15 effectiveness=2 healthThreshold=35 theme=error}
+    :::if{source="Mudkip" condition="$safeRoute"}
+      ::damage[+0 Rock Tomb vs Zubat]{source="Mudkip" evolution=1 movePower=60 level=16 opponentStat=15 effectiveness=2 healthThreshold=35 theme=error}
 
-    ::damage[Zubat's Wing Attack]{source="Mudkip" offensive=false evolution=1 movePower=60 level=16 opponentLevel=14 opponentStat=17 stab=true}
+      ::damage[Zubat's Wing Attack]{source="Mudkip" offensive=false evolution=1 movePower=60 level=16 opponentLevel=14 opponentStat=17 stab=true}
+    :::
+    :::if{source="Mudkip" condition="!$safeRoute"}
+      ::damage[+0 Rock Tomb vs Zubat]{source="Mudkip" movePower=60 level=15 evs=7 opponentStat=15 effectiveness=2 healthThreshold=35 theme=error}
+
+      ::damage[Zubat's Wing Attack]{source="Mudkip" offensive=false movePower=60 level=15 evs=5 opponentLevel=14 opponentStat=17 stab=true}
   :::
   :::pokemon[Caravanha]{info="Heal whenever you are in Aqua Jet range" infoColor=gray}
     - Rock Tomb
     - Echoed Voice :info[Use Water Gun if in Torrent]{color=gray}
-    ::damage[Carvanha's Bite]{source="Mudkip" evolution=1 offensive=false movePower=60 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true}
+    :::if{source="Mudkip" condition="$safeRoute"}
+      ::damage[Carvanha's Bite]{source="Mudkip" evolution=1 offensive=false movePower=60 level=16 evs=7 opponentLevel=14 opponentStat=27 stab=true}
 
-    ::damage[Carvanha's Aqua Jet]{source="Mudkip" evolution=1 offensive=false movePower=40 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true effectiveness=0.5}
+      ::damage[Carvanha's Aqua Jet]{source="Mudkip" evolution=1 offensive=false movePower=40 level=16 evs=7 opponentLevel=14 opponentStat=27 stab=true effectiveness=0.5}
+    :::
+    :::if{source="Mudkip" condition="!$safeRoute"}
+      - Teach Mud Shot over Growl (slot 2)
+      ::damage[Carvanha's Bite]{source="Mudkip" offensive=false movePower=60 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true}
+
+      ::damage[Carvanha's Aqua Jet]{source="Mudkip" offensive=false movePower=40 level=16 evs=5 opponentLevel=14 opponentStat=27 stab=true effectiveness=0.5}
   :::
 :::::
 
@@ -329,7 +419,7 @@ Head to the museum.
 > #### Buy (Top)
 > - 7 X Speed
 > - 4 X Attack (v)
-> - 4 X Sp. Attack (>^)
+> - 4 X Sp. Attack (>^^)
 > #### Buy (Bottom)
 > - 6 Super Repels (^^)
 
@@ -371,9 +461,15 @@ Optional: Pick up extra Full Heal
     - X Speed x2
     :::
     - (Heal if one Incinerate will put you into Grovyle's Quick Attack range)
+    :::if{source="Mudkip" condition="$showMaps"}
+      - If burned, Super Potion after set-up (you can't/don't have to heal burn, just roll with it)
     - Echoed Voice x2
-
-    ::damage[Slugma's Incinerate]{source="Mudkip" evolution=1 offensive=false movePower=60 special=true level=17 evs=0 opponentLevel=18 stab=true opponentStat=34 effectiveness=0.5}
+    :::if{source="Mudkip" condition="$safeRoute"}
+      ::damage[Slugma's Incinerate]{source="Mudkip" evolution=1 offensive=false movePower=60 special=true level=18 evs=0 opponentLevel=18 stab=true opponentStat=34 effectiveness=0.5}
+    :::
+    :::if{source="Mudkip" condition="!$safeRoute"}
+      ::damage[Slugma's Incinerate]{source="Mudkip" evolution=1 offensive=false movePower=60 special=true level=17 evs=0 opponentLevel=18 stab=true opponentStat=34 effectiveness=0.5}
+    :::
   :::::
   :::::pokemon[Grovyle]
     - Echoed Voice (x2)
