@@ -29,40 +29,17 @@
   30 ->   13,   21,   8,    9,    0,    23  # Vigoroth (2 Spd), Slaking (3 HP)
 :::
 
-:::tracker{species="Mudkip-test" generation=6 baseStats="[[50, 70, 50, 50, 50, 40], [70, 85, 70, 60, 70, 50], [100, 110, 90, 85, 90, 60]]"}
-5: 
-  5 ->	  0,    0,    0,    0,    0,    0 
-  6 ->	  0,    1,    0,    0,    0,    1   #	Poochyena (1 Atk), Treecko (1 Spd)
-  7 ->	  0,    1,    0,    0,    0,    2   # Zigzagoon (1 Spd)
-  8 ->	  0,    2,    0,    0,    0,    2   # Poochyena (1 Atk)
-  9 ->	  0,    2,    1,    0,    0,    2   # Geodude (1 Def)
-  10 ->	  0,    2,    3,    0,    0,    2   # Geodude (1 Def)
-  11 ->	  0,    2,    4,    0,    0,    2   # Nosepass (1 Def)
-  12 ->   0,    2,    5,    0,    0,    2   # Geodude (1 Def), Geodude (1 Def)
-  13 ->   0,    2,    7,    0,    0,    2   # Poochyena (1 Atk)
-  14 ->   0,    4,    7,    0,    0,    3   # Meditite (1 Spd), Machop (1 Atk)
-  15 ->   0,    5,    7,    0,    0,    4   # Meditite (1 Spd), Machop (1 Atk), Machop (1 Atk)
-  16 ->   1,    7,    7,    0,    0,    4   # Makuhita (1 HP), Carvanha (1 Atk), Zubat (1 Spd)
-  17 ->   1,    8,    7,    0,    0,    7   # Carvanha (1 Atk), Plusle (1 Spd)
-  18 ->   1,    8,    7,    1,    0,    7   # Minun (1 Spd), Slugma (1 Sp.Atk)
-  19 ->   1,    8,    7,    1,    0,    9   # Grovyle (2 Spd)
-  20 ->   2,    8,    7,    3,    0,    10  # Wailmer (1 HP), Ralts (1 Sp.Atk), Magnemite (1 Sp.Atk), Electrike (1 Spd), Electrike (1 Spd)
-  21 ->   2,    8,    7,    6,    0,    13  # Voltorb (1 Spd), Voltorb (1 Spd), Magnemite (1 Sp.Atk), Magneton (2 Sp.Atk)
-  22 ->   2,    8,    7,    6,    0,    15  # Voltorb (1 Spd), Electrike (1 Spd)
-  23 ->   3,    10,   8,    6,    0,    16  # Bagon (1 Atk), Makuhita (1 HP), Trapinch (1 Atk), Electrike (1 Spd), Aron (1 Def)
-  24 ->   4,    13,   8,    6,    0,    16  # Grimer (1 HP), Mightyena (2 Atk), Carvanha (1 Atk)
-  25 ->   6,    17,   8,    6,    0,    16  # Poochyena (1 Atk), Grimer (1 HP), Grimer (1 HP), Carvanha (1 Atk), Mightyena (2 Atk)
-  26 ->   6,    19,   8,    6,    0,    18  # Sharpedo (2 Atk), Golbat (2 Spd)
-  27 ->   6,    19,  10,    9,    0,    18  # Numel (1 Sp.Atk), Slugma (1 Sp.Atk), Numel (1 Sp.Atk), Torkoal (2 Def)
+:::card{theme=info}
+The route is for completing the Trick House. The run should be under/around 2 hours. The run is a nice short(er) run for Alpha Sapphire.
+Please set the two options below before starting! Default is to set "No" to both, which would result in the recommneded setting if you've run ORAS before.
 
+For beginners, set both options below to "Yes." It is more than OK to run non-ideal mudkips if using the safe route option!
+Happy running!
 :::
 
 
 :::variable{name="safeRoute" type="boolean" defaultValue=0 theme=error title="Do you want a safer route?"}
- The safer route fights one more optional so you have safer Hideki and Museum fights and more runnable mudkips
-
- 1. Fight Youngster Josh in Roxanne's gym
- 2. Level 14 for Hidkeki and Marshtomp for Museum fight #2
+ The safer route fights one more optional so you have "safer" Hideki and Museum fights.
 :::
 
 
@@ -72,6 +49,8 @@ Maps are labeled with white arrows for movement and red letters for trainers:
   - F: Trainer fight. These are trainers you are fighting as a part of the route.
   - S: Spinner trainer. These trainers spin in place so pass only when they are not looking.
   - W: Walker trainer. These trainers move/walk so be careful of their movement.
+
+Thanks [fortunatenaruto](https://www.twitch.tv/fortunatenaruto) for compiling the maps.
 :::
 
 Choose May and give her a single character name ("!" is the fastest).
@@ -103,7 +82,7 @@ Mash B at Birch's lab until you refuse to give a nickname, then mash A. Go north
 
 :::card
   Ideal stats at Lv. 6:
-  - Attack: **13** (_12 makes museum iffy. Fight extra optional in Roxanne's gym if running 11 or 12 attack_)
+  - Attack: **14** (_13 is runnable but not ideal_)
   - Defense: **10** (9 is runnable but not ideal)
   - Sp. Attack: **10** (9 is runnable but not ideal)
   - Sp. Defense: **X** (_Any value is fine_)
@@ -291,7 +270,7 @@ Go back through Petalburg Woods toward's Mr. Briney's house. Grass patch is last
 
 ![map8](map8.png)
 
-![map8](map8.png)
+![map9](map9.png)
 :::
 Go inside and talk to Mr. Briney in his house. Intercept him by standing on the tile to the bottom-left of the table immediately, then press up when he asks you where you want to go.
 
